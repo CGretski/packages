@@ -122,6 +122,8 @@ CONFIGURE_ARGS+= \
 	--disable-libdane \
 	--disable-ssl2-support \
 	--disable-ssl3-support \
+	--disable-dhe \
+	--disable-gost \
 	--enable-local-libopts \
 	--without-idn \
 	--with-default-trust-store-dir=/etc/ssl/certs/ \
